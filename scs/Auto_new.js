@@ -66,7 +66,7 @@ adams({
       const sunrise = new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString();
       const sunset = new Date(weatherData.sys.sunset * 1000).toLocaleTimeString();
       
-      repondre(`*B.M.B XMD WEATHER UPDATES* \n\n❄️ Weather in ${locationName}:\n🌡️ Temperature: ${temperature}°C\n📝 Description: ${description}\n❄️ Humidity: ${humidity}%\n🌀 Wind Speed: ${windSpeed} m/s\n🌧️ Rain Volume (last hour): ${rainVolume} mm\n🌄 Sunrise: ${sunrise}\n🌅 Sunset: ${sunset}\n`);
+      repondre(`*STANY-TECH WEATHER UPDATES* \n\n❄️ Weather in ${locationName}:\n🌡️ Temperature: ${temperature}°C\n📝 Description: ${description}\n❄️ Humidity: ${humidity}%\n🌀 Wind Speed: ${windSpeed} m/s\n🌧️ Rain Volume (last hour): ${rainVolume} mm\n🌄 Sunrise: ${sunrise}\n🌅 Sunset: ${sunset}\n`);
     } else {
       repondre("Could not retrieve weather data. Please try again.");
     }
